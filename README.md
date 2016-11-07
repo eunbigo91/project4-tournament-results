@@ -25,7 +25,7 @@ This is a Python module that uses the PostgreSQL database to keep track of playe
   - Run: `git clone https://github.com/eunbigo91/project4-tournament-results.git tournament`
   - This will create a directory inside the *vagrant* directory titled *tournament*.
 6. Powers on the virtual machine : `vagrant up`
-7. logs into the virtual machine : `vagrant ssh`
+7. Logs into the virtual machine : `vagrant ssh`
 8. Change directory to the synced folders : `cd /vagrant/tournament`
 9. Create the tournament database : psql -f tournament.sql
 10. If you want to run tournament_test.py : python tournament_test.py
